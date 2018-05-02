@@ -14,7 +14,7 @@ class BankAccount
   end
   
   def display_balance
-    self.balance.dup.frozen
+    self.balance
   end
   
 end
