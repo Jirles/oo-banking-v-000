@@ -13,4 +13,8 @@ class BankAccount
     self.balance += amt 
   end
   
+  def display_balance
+    self.balance.dup.frozen
+  end
+  
 end
