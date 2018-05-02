@@ -3,7 +3,7 @@ class BankAccount
   attr_accessor :name
   
   def initialize(name)
-    @owner = name 
+    @name = name 
   end
   
 end
